@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+header{
+    max-width: 1200px;
+    min-width: 600px;
+
+    background: #bbbbbb;
+    padding: 20px 0;
+
+
+}
+
+.caixa{
+    width: 945px;
+
+
+    position: relative;
+
+    margin: 0 auto;
+
+}
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+
+
+footer{
+background: gray;
+}
