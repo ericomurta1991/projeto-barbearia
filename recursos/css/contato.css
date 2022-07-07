@@ -1,39 +1,117 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 header{
-    max-width: 1200px;
-    min-width: 600px;
 
+
+    margin: 0 auto;
+
+    position: relative;
     background: #bbbbbb;
     padding: 20px 0;
 
+    text-align: left;
+
+    box-shadow: 1px 1px 1px  rgba(10, 10, 10, 0.57);
 
 }
 
-.caixa{
-    width: 945px;
+header h1{
 
+    padding: 10px;
+    margin: 0 95px 0 100px;
 
-    position: relative;
-
-    margin: 0 auto;
 
 }
 
 nav{
+
+
+
     position: absolute;
     top: 120px;
-    right: 100px;
+    right: 50px;
+    margin-right: 40px;
+    padding: 5px 15px 5px 15px ;
+
 }
 
 nav li{
+
+
     display: inline;
     margin: 0 0 0 15px;
 }
 
+nav a{
+    color: black;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #8E989E;
+}
+
+
+main {
+    background-color: #ffffff;
+
+    max-width: 1200px;
+    min-width: 300px;
+
+    margin:  auto;
+    padding: 1px 20px;
+
+
+}
+
+form{
+
+    margin: 40px auto;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+
+
+
 
 
 footer{
-background: gray;
+    background: url("/recursos/imagens/bg.jpg");
+    max-height: 18em;
+
+    padding: 40px 0px;
+
+    text-align: center;
+}
+
+.copyright {
+    color: #ffffff;
+
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 10px;
+
 }
