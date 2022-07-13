@@ -154,6 +154,7 @@ td, th {
     padding: 8px 15px;
 }
 /* css da página inicial.*/
+
 .banner{
     width: 100%;
 }
@@ -164,6 +165,7 @@ td, th {
     margin: 0 0 1em;
     clear: left;
 }
+
 
 .principal{
     padding: 3em 0;
@@ -193,7 +195,7 @@ td, th {
 
 .mapa {
     padding: 3em 0;
-    
+    background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa-conteudo{
@@ -209,8 +211,6 @@ td, th {
 .beneficios{
     padding: 3em  0;
     background: #888888;
-
-
 }
 
 .conteudo-beneficios{
@@ -224,6 +224,10 @@ td, th {
 
 .itens:first-child{
     font-weight: bold;
+}
+
+.itens:before{
+    content:"🟊";
 }
 
 .imagem-beneficios {
